@@ -1,0 +1,18 @@
+ <!-- <view class='header'>
+    <view class='portraitWrap'>
+        <image src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class='nameWrap'>
+        <text class='title'>xiaodemo</text>
+        <text class='name'>xiaodemo</text>
+    </view>
+</view>  -->
+
+    <view>
+        <block wx:for="{{grids}}" wx:key="*this">
+            <navigator url="" class="grid">
+                <image  src="/images/icon_tabbar.png" />
+                <text>grid</text>
+            </navigator>
+        </block>
+    </view>
