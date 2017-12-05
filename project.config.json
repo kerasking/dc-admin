@@ -21,12 +21,18 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "个人中心",
-					"pathName": "pages/me/me"
+					"pathName": "pages/me/me",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "信息页",
+					"pathName": "pages/info/info"
 				}
 			]
 		}

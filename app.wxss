@@ -1,0 +1,143 @@
+.page {
+    line-height: 1.6;
+    font-family: -apple-system-font, Helvetica Neue, sans-serif;
+}
+
+.weui-cell {
+    padding: 10px 15px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.weui-cell_input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.weui-cell:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1rpx solid #d9d9d9;
+    color: #d9d9d9;
+    left: 15px;
+}
+
+.weui-cell:first-child:before {
+    display: none;
+}
+
+.weui-cell_active {
+    background-color: #ececec;
+}
+
+.weui-label {
+    width: 105px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.weui-cell__bd {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.weui-input {
+    height: 2.58823529em;
+    min-height: 2.58823529em;
+    line-height: 2.58823529em;
+}
+
+.weui-cells_after-title {
+    margin-top: 0;
+}
+
+.weui-cells {
+    position: relative;
+    margin-top: 1.17647059em;
+    background-color: #fff;
+    line-height: 1.41176471;
+    font-size: 17px;
+}
+
+.weui-cells:after {
+    bottom: 0;
+    border-bottom: 1rpx solid #d9d9d9;
+}
+
+.weui-cells:after, .weui-cells:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    color: #d9d9d9;
+}
+
+.weui-cells:before {
+    top: 0;
+    border-top: 1rpx solid #d9d9d9;
+}
+
+input {
+    display: block;
+    height: 1.4rem;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: UICTFontTextStyleBody;
+    min-height: 1.4rem;
+}
+
+.weui-btn:first-child {
+    margin-top: 0;
+}
+
+button[type="primary"] {
+    color: #fff;
+    background-color: #1aad19;
+}
+
+button {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.55555556;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    color: #000;
+    background-color: #f8f8f8;
+}
+
+button::after {
+    content: " ";
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
