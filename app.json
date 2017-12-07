@@ -2,7 +2,10 @@
     "pages": [
         "pages/index/index",
         "pages/info/info",
-        "pages/me/me"
+        "pages/me/me",
+        "pages/menu/menu",
+        "pages/dishcategory/dishcategory",
+        "pages/dish/dish"
     ],
     "window": {
         "navigationBarBackgroundColor": "#eec82e",

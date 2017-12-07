@@ -1,0 +1,37 @@
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">cell standard</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">cell standard</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <view url="" class="weui-cell_access" style='padding:10px 15px;position:relative;overflow:hidden' hover-class="weui-cell_active">
+        <view style='float:left;'>
+            <text>standard</text>
+            <text class='tips'>qwer</text>
+        </view>
+        <view style='float:right;'>
+            <text>qwer</text>
+            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+
+    </view>
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">cell standard</view>
+        <view class="weui-cell__bd">standard</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+</view>
+<view class="weui-cells weui-cells_after-title">
+    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd" bindtap="open">
+            <text>standard</text>
+            <text class='tips'>cell</text>
+        </view>
+        <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #000'>说明文字</view>
+    </navigator>
+</view>
