@@ -5,11 +5,13 @@
         "pages/me/me",
         "pages/menu/menu",
         "pages/dishcategory/dishcategory",
-        "pages/dish/dish"
+        "pages/dish/dish",
+        "pages/table/table",
+        "pages/tableQR/tableQR"
     ],
     "window": {
         "navigationBarBackgroundColor": "#eec82e",
-        "backgroundColor": "#000000",
+        "backgroundColor": "#F5F5F6",
         "navigationBarTitleText": ""
     },
     "tabBar": {
