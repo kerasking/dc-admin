@@ -183,3 +183,34 @@ button::after {
 .weui-btn-area {
     margin: 1.17647059em 15px 0.3em;
 }
+
+.page__bd {
+    padding-bottom: 40px;
+}
+
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.weui-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.weui-flex__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.placeholder {
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #ebebeb;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}

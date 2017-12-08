@@ -1,3 +1,7 @@
+//appid及appsecret
+const AppConf = { 'appid': 'wxaa96bb0942b0eff2', 'appsecret': '0b44d65c2e289bc8bee75e5b9df23b99' };
+const apiHost = 'https://ab.crm.magcloud.cc';
+
 const formatTime = date => {
   const year = date.getFullYear()
   const month = date.getMonth() + 1

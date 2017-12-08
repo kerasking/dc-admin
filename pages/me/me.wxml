@@ -8,11 +8,19 @@
     </view>
 </view>  -->
 
-    <view>
+    <!-- <view>
         <block wx:for="{{grids}}" wx:key="*this">
             <navigator url="" class="grid">
                 <image  src="/images/icon_tabbar.png" />
                 <text>grid</text>
             </navigator>
         </block>
+    </view> -->
+<view class="page__bd page__bd_spacing">
+        <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+        </view>
     </view>
