@@ -1,26 +1,44 @@
- <!-- <view class='header'>
-    <view class='portraitWrap'>
-        <image src='{{userInfo.avatarUrl}}'></image>
+<view class='header'>
+  <view class='portraitWrap'>
+    <image src='{{userInfo.avatarUrl}}'></image>
+  </view>
+  <view class='nameWrap'>
+    <text class='title'>xiaodemo</text>
+    <text class='name'>xiaodemo</text>
+  </view>
+</view>
+<view style='margin-top:5px;margin-bottom:5px;background-color:#fff;'>
+  <view class="weui-flex" style='align-items:center;'>
+    <view class="weui-flex__item item1">
+      <text class='num'>0</text>
+      <text class='mark'>营业额</text>
     </view>
-    <view class='nameWrap'>
-        <text class='title'>xiaodemo</text>
-        <text class='name'>xiaodemo</text>
+    <view class="weui-flex__item item1">
+      <text class='num'>0</text>
+      <text class='mark'>点单数</text>
     </view>
-</view>  -->
-
-    <!-- <view>
-        <block wx:for="{{grids}}" wx:key="*this">
-            <navigator url="" class="grid">
-                <image  src="/images/icon_tabbar.png" />
-                <text>grid</text>
-            </navigator>
-        </block>
-    </view> -->
-<view class="page__bd page__bd_spacing">
-        <view class="weui-flex">
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
-        </view>
+    <view class="weui-flex__item item1">
     </view>
+    <view class="weui-flex__item item1">
+    </view>
+  </view>
+</view>
+<view style='border-left:3px solid #eec82e;margin-left:5%;'>
+<text style='font-size:15px;color:#484848;padding-left:10px;'>信息设置</text>
+</view>
+<view style='overflow:hidden;'>
+  <block>
+    <navigator url="/pages/info/info" class="grid">
+      <image src="/images/info.png" style='width:70rpx;height:70rpx;'/>
+      <text>店铺信息</text>
+    </navigator>
+    <navigator url="" class="grid">
+      <image src="/images/menu.png" style='width:80rpx;height:80rpx'/>
+      <text>菜单</text>
+    </navigator>
+    <navigator url="" class="grid">
+      <image src="/images/table.png" style='width:60rpx;height:60rpx;'/>
+      <text>桌位</text>
+    </navigator>
+  </block>
+</view>

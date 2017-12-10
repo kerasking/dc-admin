@@ -32,7 +32,7 @@ App({
                 }
             }
         });
-        self.login();
+        // self.login();
 
     },
     login: function () {
