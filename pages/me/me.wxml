@@ -29,15 +29,15 @@
 <view style='overflow:hidden;'>
   <block>
     <navigator url="/pages/info/info" class="grid">
-      <image src="/images/info.png" style='width:70rpx;height:70rpx;'/>
+      <image src="/images/info.png" style='width:64rpx;height:64rpx;'/>
       <text>店铺信息</text>
     </navigator>
     <navigator url="" class="grid">
-      <image src="/images/menu.png" style='width:80rpx;height:80rpx'/>
+      <image src="/images/menu.png" style='width:64rpx;height:64rpx'/>
       <text>菜单</text>
     </navigator>
     <navigator url="" class="grid">
-      <image src="/images/table.png" style='width:60rpx;height:60rpx;'/>
+      <image src="/images/table.png" style='width:64rpx;height:64rpx;'/>
       <text>桌位</text>
     </navigator>
   </block>
