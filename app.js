@@ -1,4 +1,6 @@
 //app.js
+const util = require('/utils/util.js');
+
 App({
     onLaunch: function () {
         var self = this;
@@ -32,26 +34,32 @@ App({
                 }
             }
         });
-        // self.login();
+        self.login();
 
     },
     login: function () {
         var self = this;
+        var clientId = "";
+        var userType = "1";
+        var authorization = "";
         wx.login({
             success: function (res) {
                 if (res.code) {
                     console.log(res, "wx.login");
+                    clientId = res.code;
+                    authorization = "Basic " + util.base64encode(clientId + ":" + userType);
                     wx.request({
                         url: 'https://example/user/login',
                         header: {
                             'content-type': 'application/x-www-form-urlencoded',
-                            'Authorization': 'Basic bXlfYXBwOm15X3NlY3JldA=='
+                            'Authorization': authorization
                         },
                         method: 'POST',
                         data: {
                             'grant_type': 'password',
                             'username': res.code,
-                            'password': 'azar'
+                            'password': 'azar',
+                            'clientId': 123
                         },
                         success: function (res) {
                             console.log(res.data, "user/login");
