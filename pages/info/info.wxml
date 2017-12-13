@@ -2,7 +2,7 @@
 <view style='background-color:#F2F0F3;height:30px;line-height:30px;'>
 <text style='font-size:13px;color:#D24F4B;margin-left:10px;'>*仅店长可修改店铺信息</text>
 </view>
-    <view class="weui-cells weui-cells_after-title" style='margin-top:0;'>
+    <view class="weui-cells weui-cells_after-title" style='margin-top:0;font-size:15px;'>
         <view class="weui-cell weui-cell_input">
             <view class="weui-cell__hd">
                 <view class="weui-label">店铺名</view>
@@ -13,23 +13,31 @@
         </view>
         <view class="weui-cell weui-cell_input">
             <view class="weui-cell__hd">
-                <view class="weui-label">qq</view>
+                <view class="weui-label">店铺负责人</view>
             </view>
             <view class="weui-cell__bd">
-                <input class="weui-input" placeholder="请输入qq" />
+                <input class="weui-input" placeholder="请输入店铺负责人" />
             </view>
         </view>
         <view class="weui-cell weui-cell_input">
             <view class="weui-cell__hd">
-                <view class="weui-label">qq</view>
+                <view class="weui-label">店铺联系电话</view>
             </view>
             <view class="weui-cell__bd">
-                <input class="weui-input" placeholder="请输入qq" />
+                <input class="weui-input" placeholder="请输入店铺联系电话" />
+            </view>
+        </view>
+        <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__hd">
+                <view class="weui-label">店铺地址</view>
+            </view>
+            <view class="weui-cell__bd">
+                <input class="weui-input" placeholder="请输入店铺地址" />
             </view>
         </view>
     </view>
-    <view>
-        <button class="weui-btn" type="primary">页面主操作 Normal</button>
+    <view style='margin-top:20px;margin-left:20px;margin-right:20px;'>
+        <button class="weui-btn" type="primary" style='font-size:16px;'>确定</button>
     </view>
 
 </view>

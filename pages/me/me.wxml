@@ -23,7 +23,7 @@
     </view>
   </view>
 </view>
-<view style='border-left:3px solid #eec82e;margin-left:5%;'>
+<view style='border-left:3px solid #eec82e;margin-left:5%;margin-top:15px;'>
 <text style='font-size:15px;color:#484848;padding-left:10px;'>信息设置</text>
 </view>
 <view style='overflow:hidden;'>
@@ -32,7 +32,7 @@
       <image src="/images/info.png" style='width:64rpx;height:64rpx;'/>
       <text>店铺信息</text>
     </navigator>
-    <navigator url="" class="grid">
+    <navigator url="/pages/menu/menu" class="grid">
       <image src="/images/menu.png" style='width:64rpx;height:64rpx'/>
       <text>菜单</text>
     </navigator>
