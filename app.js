@@ -58,8 +58,7 @@ App({
                         data: {
                             'grant_type': 'password',
                             'username': res.code,
-                            'password': 'azar',
-                            'clientId': 123
+                            'password': 'azar'
                         },
                         success: function (res) {
                             console.log(res.data, "user/login");
