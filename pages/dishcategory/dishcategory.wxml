@@ -1,10 +1,13 @@
-<view class="weui-cells weui-cells_after-title">
+<view style='background-color:#F2F0F3;height:30px;line-height:30px;'>
+<text style='font-size:13px;color:#888;margin-left:10px;'>*添加新的菜式分类(例如,荤菜,酒水)</text>
+</view>
+<view class="weui-cells weui-cells_after-title" style='margin-top:0;font-size:15px;'>
             <view class="weui-cell weui-cell_input">
                 <view class="weui-cell__bd">
-                    <input class="weui-input" placeholder="请输入文本" />
+                    <input class="weui-input" placeholder="请输入菜式分类名" />
                 </view>
             </view>
  </view>
- <view class="weui-btn-area">
-            <button class="weui-btn" type="primary" bindtap="showTopTips">确定</button>
+ <view style='margin-top:20px;margin-left:20px;margin-right:20px;'>
+            <button class="weui-btn" type="primary" style='font-size:16px;' bindtap="showTopTips">确定</button>
         </view>

@@ -10,3 +10,6 @@
     float: left;
     margin-right: 5px;
 }
+.weui-cell__ft_in-access:after {
+    right: 12px;
+}

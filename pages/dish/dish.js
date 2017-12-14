@@ -6,7 +6,7 @@ Page({
    */
   data: {
       files: ["https://dummyimage.com/72/99cc00","https://dummyimage.com/72/99cc00"],
-      array: ['美国', '中国', '巴西', '日本'],
+      array: ['只', '瓶', '包', '两'],
       index: 0
   },
 

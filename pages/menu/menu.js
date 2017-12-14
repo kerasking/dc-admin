@@ -16,7 +16,7 @@ Page({
     },
     open: function() {
         wx.showActionSheet({
-            itemList: ['A', 'B', 'C'],
+            itemList: ['修改', '删除'],
             success: function(res) {
                 if (!res.cancel) {
                     console.log(res.tapIndex)
