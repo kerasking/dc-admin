@@ -9,6 +9,7 @@
     height: 72px;
     float: left;
     margin-right: 5px;
+    margin-bottom:5px;
 }
 .weui-cell__ft_in-access:after {
     right: 12px;

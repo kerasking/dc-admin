@@ -1,33 +1,54 @@
 <view class="weui-cells weui-cells_after-title" style='margin-top:0;font-size:15px;'>
-    <navigator url="/pages/dishcategory/dishcategory" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">+添加菜式分类</view>
-        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
+  <navigator url="/pages/dishcategory/dishcategory" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">+添加菜式分类</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
 </view>
 <view class="weui-cells weui-cells_after-title" style='margin-top:15px;font-size:15px;'>
-    <view url="" class="weui-cell_access" style='padding:10px 15px;position:relative;overflow:hidden' hover-class="weui-cell_active">
-        <view style='float:left;'>
-            <text>standard</text>
-            <text class='tips'>qwer</text>
-        </view>
-        <view style='float:right;'>
-            <text>qwer</text>
-            <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-        </view>
-
+  <view url="" class="weui-cell_access" style='padding:10px 15px;position:relative;overflow:hidden' hover-class="weui-cell_active">
+    <view style='float:left;'>
+      <text>standard</text>
+      <text class='tips'>qwer</text>
     </view>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-        <view class="weui-cell__bd">cell standard</view>
-        <view class="weui-cell__bd">standard</view>
-        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
+    <view style='float:right;'>
+      <text>qwer</text>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </view>
+
+  </view>
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">cell standard</view>
+    <view class="weui-cell__bd">standard</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
 </view>
 <view class="weui-cells weui-cells_after-title" style='font-size:14px;'>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-        <view class="weui-cell__bd" bindtap="open">
-            <text>干锅类</text>
-            <text class='tips'>未添加商品</text>
-        </view>
-        <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #ddd;color:#444;'>添加菜式</view>
-    </navigator>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd" bindtap="open">
+      <text>干锅类</text>
+      <text class='tips'>未添加商品</text>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #ddd;color:#444;' bindtap="adddishes">添加菜式</view>
+  </view>
+  <view class="weui-cell weui-cell_access">
+    <view class="weui-cell__bd" bindtap="open">
+      <text>干锅类</text>
+      <text class='tips'>共1菜式</text>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #ddd;color:#444;' bindtap="adddishes">管理菜式</view>
+  </view>
+</view>
+
+<view class="weui-cells weui-cells_after-title" style='font-size:14px;'>
+  <view class="weui-cell weui-cell_access">
+    <picker class="weui-cell__bd" bindchange="bindPickerChange" value="{{index}}" range="{{array}}" style='margin-right:10px;position:relative;'>
+      <view class="weui-vcode-btn">{{array[index]}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access arrow" style='position:static;padding-right:0;'></view>
+    </picker>
+    <!-- <view class="weui-cell__bd" bindtap="open">
+      <text>干锅类</text>
+      <text class='tips'>未添加商品</text>
+    </view> -->
+    <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #ddd;color:#444;' bindtap="adddishes">添加菜式</view>
+  </view>
 </view>

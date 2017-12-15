@@ -5,7 +5,8 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+      array: ['只', '瓶', '包', '两'],
+      index: 0
     },
 
     /**
@@ -24,6 +25,17 @@ Page({
             }
         });
     },
+     adddishes: function () {
+       wx.navigateTo({
+         url: '/pages/dish/dish'
+       })
+    },
+     bindPickerChange: function (e) {
+       console.log('picker发送选择改变，携带值为', e.detail.value)
+       this.setData({
+         index: e.detail.value
+       })
+     },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-      files: ["https://dummyimage.com/72/99cc00","https://dummyimage.com/72/99cc00"],
+    files: ["https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00", "https://dummyimage.com/72/99cc00","https://dummyimage.com/72/99cc00"],
+
       array: ['只', '瓶', '包', '两'],
       index: 0
   },

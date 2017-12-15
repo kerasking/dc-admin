@@ -3,3 +3,6 @@
     margin-left: 10px;
     color: #aaa;
 }
+.arrow:after{
+  left:20px;
+}
