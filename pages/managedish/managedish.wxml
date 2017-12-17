@@ -1,0 +1,23 @@
+<view class="weui-cells weui-cells_after-title" style='font-size:14px;margin-top:0;'>
+  <view class="weui-cell weui-cell_access">
+    <picker class="weui-cell__bd" bindchange="bindPickerChange" value="{{index}}" range="{{array}}" style='margin-right:10px;position:relative;'>
+      <view class="weui-vcode-btn">{{array[index]}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access arrow" style='position:static;padding-right:0;'></view>
+    </picker>
+    <!-- <view class="weui-cell__bd" bindtap="open">
+      <text>干锅类</text>
+      <text class='tips'>未添加商品</text>
+    </view> -->
+    <view class="weui-cell__ft weui-cell__ft_in-access" style='padding-left:15px;border-left:1rpx solid #ddd;color:#444;' bindtap="adddishes">添加菜式</view>
+  </view>
+</view>
+<view style='overflow:hidden;padding-top:10px;padding-bottom:10px;padding-left:10px;border-bottom:1rpx solid #d9d9d9;' class='listWrap' bindtap="open">
+  <view style='float:left;'>
+    <image src='https://dummyimage.com/100/99cc00' style='width:60px;height:60px;'></image>
+  </view>
+  <view class='contentWrap'>
+    <text class='name'style='font-size:15px;'>鱼香肉丝</text>
+    <text class='produce' style='font-size:14px;color:#AAAAAA;'>没有介绍</text>
+    <text class='money' style='font-size:14px;color:#FF3333;'>¥220</text>
+  </view>
+</view>

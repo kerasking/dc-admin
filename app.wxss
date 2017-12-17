@@ -1,6 +1,10 @@
+page {
+    background-color: #EFEFEF;
+}
 .page {
     line-height: 1.6;
     font-family: -apple-system-font, Helvetica Neue, sans-serif;
+    background-color: #EFEFEF;
 }
 
 .weui-cell {

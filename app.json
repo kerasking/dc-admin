@@ -6,7 +6,9 @@
         "pages/menu/menu",
         "pages/dishcategory/dishcategory",
         "pages/dish/dish",
+        "pages/managedish/managedish",
         "pages/table/table",
+        "pages/addtable/addtable",
         "pages/tableQR/tableQR"
     ],
     "window": {
@@ -19,7 +21,7 @@
         "position": "bottom",
         "borderStyle": "block",
         "color": "#666",
-        "selectedColor": "#666",
+        "selectedColor": "#FF9E01",
         "list": [
             {
                 "pagePath": "pages/index/index",

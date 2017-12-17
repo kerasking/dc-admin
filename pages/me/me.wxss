@@ -1,5 +1,7 @@
 /* pages//me.wxss */
-
+page{
+  background-color: #fff;
+}
 .portraitWrap {
   display: inline-block;
   border: 5px solid #fff;

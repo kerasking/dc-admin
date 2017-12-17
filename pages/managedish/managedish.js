@@ -1,11 +1,12 @@
-// pages/index/me.js
+// pages/managedish/managedish.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    array: ['只', '瓶', '包', '两'],
+    index: 0
   },
 
   /**
@@ -14,7 +15,22 @@ Page({
   onLoad: function (options) {
   
   },
-
+  bindPickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
+    })
+  },
+  open: function () {
+    wx.showActionSheet({
+      itemList: ['修改', '删除'],
+      success: function (res) {
+        if (!res.cancel) {
+          console.log(res.tapIndex)
+        }
+      }
+    });
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -1,0 +1,13 @@
+<view style='background-color:#F2F0F3;height:30px;line-height:30px;'>
+<text style='font-size:13px;color:#888;margin-left:10px;'>*添加新的桌位名称(例如,1号桌)</text>
+</view>
+<view class="weui-cells weui-cells_after-title" style='margin-top:0;font-size:15px;'>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入桌位名称" />
+                </view>
+            </view>
+ </view>
+ <view style='margin-top:20px;margin-left:20px;margin-right:20px;'>
+            <button class="weui-btn" type="primary" style='font-size:16px;' bindtap="showTopTips">确定</button>
+        </view>

@@ -7,7 +7,7 @@
     <text class='name'>xiaodemo</text>
   </view>
 </view>
-<view style='margin-top:5px;margin-bottom:5px;background-color:#fff;'>
+<view style='background-color:#fff;'>
   <view class="weui-flex" style='align-items:center;'>
     <view class="weui-flex__item item1">
       <text class='num'>0</text>
@@ -23,22 +23,25 @@
     </view>
   </view>
 </view>
-<view style='border-left:3px solid #eec82e;margin-left:5%;margin-top:15px;'>
-<text style='font-size:15px;color:#484848;padding-left:10px;'>信息设置</text>
-</view>
-<view style='overflow:hidden;'>
-  <block>
-    <navigator url="/pages/info/info" class="grid">
-      <image src="/images/info.png" style='width:64rpx;height:64rpx;'/>
-      <text>店铺信息</text>
-    </navigator>
-    <navigator url="/pages/menu/menu" class="grid">
-      <image src="/images/menu.png" style='width:64rpx;height:64rpx'/>
-      <text>菜单</text>
-    </navigator>
-    <navigator url="" class="grid">
-      <image src="/images/table.png" style='width:64rpx;height:64rpx;'/>
-      <text>桌位</text>
-    </navigator>
-  </block>
+<view style='height:15px;background-color:#EFEFEF;'></view>
+<view style='background-color:#fff;padding-top:10px;'>
+  <view style='border-left:3px solid #eec82e;margin-left:5%;margin-bottom:10px;'>
+    <text style='font-size:15px;color:#484848;padding-left:10px;'>信息设置</text>
+  </view>
+  <view style='overflow:hidden;border-top:1rpx solid #eee;'>
+    <block>
+      <navigator url="/pages/info/info" class="grid">
+        <image src="/images/info.png" style='width:64rpx;height:64rpx;' />
+        <text>店铺信息</text>
+      </navigator>
+      <navigator url="/pages/menu/menu" class="grid">
+        <image src="/images/menu.png" style='width:64rpx;height:64rpx' />
+        <text>菜单</text>
+      </navigator>
+      <navigator url="" class="grid">
+        <image src="/images/table.png" style='width:64rpx;height:64rpx;' />
+        <text>桌位</text>
+      </navigator>
+    </block>
+  </view>
 </view>
