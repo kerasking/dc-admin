@@ -1,4 +1,102 @@
-<view class="weui-flex">
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
-            <view class="weui-flex__item"><view class="placeholder">weui</view></view>
+
+<scroll-view scroll-y class="listWrap" style="width:{{pageWidth}};overflow:hidden;font-size:15px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
         </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+    <view  class="tableWrap" style='width:{{listWidth}}rpx;'>
+        <view class="tableImgWrap">
+            <image class="tableImg" src='/images/table1.png'></image>
+        </view>
+        <view class="contentWrap">
+            <text style='float:left;'>1号桌</text>
+            <text style='float:right;'>状态:等待</text>
+        </view>
+    </view>
+</scroll-view>
