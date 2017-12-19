@@ -1,4 +1,20 @@
+<view class="box">
 
+    <view class="list-hd has-hairline hairline-in-pseudo-bottom">
+      <view data-type="0" bindtap="refreshList" class="item {{currentType === 0 ? 'current' : ''}}">
+        <text>全部</text>
+      </view>
+      <view data-type="1" bindtap="refreshList" class="item {{currentType === 1 ? 'current' : ''}}">
+        <text>人找车</text>
+      </view>
+      <view data-type="2" bindtap="refreshList" class="item {{currentType === 2 ? 'current' : ''}}">
+        <text>车找人</text>
+      </view>
+      <view class="item" bindtap="goFilterInfo">
+        <text class="filter-condition">筛选</text>
+      </view>
+    </view>
+  </view>
 <scroll-view scroll-y class="listWrap" style="width:{{pageWidth}};overflow:hidden;font-size:15px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
     <view class="tableWrap" style='width:{{listWidth}}rpx;'>
         <view class="tableImgWrap">
