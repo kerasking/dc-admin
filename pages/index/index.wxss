@@ -45,10 +45,10 @@ transform:scaleY(0.5);
 border-bottom:1px solid rgba(0,0,0,.1);
 }
 .list-hd .item.current {
-color:#26b83e;
+color:#EEC82E;
 }
 .list-hd .item {
-width:25%;
+width:33%;
 color:#6b6b6b;
 font-size:14px;
 position:relative;
@@ -65,7 +65,7 @@ bottom:0;
 width:75%;
 height:1.5px;
 margin-left:-37.5%;
-background-color:#26b83e;
+background-color:#EEC82E;
 
 }
 
